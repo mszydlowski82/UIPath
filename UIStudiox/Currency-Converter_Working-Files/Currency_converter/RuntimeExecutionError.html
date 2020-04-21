@@ -208,7 +208,7 @@
 
 		#SkipIterationContainer {
 			/* display: none; */
-			
+			display: none;
 		}			
 
 
@@ -229,7 +229,7 @@
 
 		#ApplicationCardWithElementDetailsContainer {
 			/* display: none; */
-			[APPCARDELEMENT_CONTAINER_VIS_PLACEHOLDER]
+			display: none;
 		}	
 
 		#ErrorPathContainer
@@ -288,18 +288,18 @@
 
 		<div style="width: 80%; float:left; margin-left: 12pt;">
 			<p>
-				Something went wrong with <strong>the Application</strong>.
-				<br>Activity <strong>Type Into 'Google'</strong> (<strong>N Type Into</strong>) failed:
-				<br><br><strong><i id="problem-desc">Column CURRENCY does not exist
+				Something went wrong with <strong>an Action</strong>.
+				<br>Activity <strong>Copy File</strong> (<strong>Copy File</strong>) failed:
+				<br><br><strong><i id="problem-desc">Could not find a part of the path 'Reports\12/31/2008Report.xlsx'.
 </i></strong>
 				<div id="ErrorPathContainer"><br><br>You can find the activity following this path: </div>
-				<div id="ErrorPathContainer"><br><strong>Main > Use Excel File > Excel For Each Row > Use Browser Chrome: currency converter - Szukaj w Google > Type Into 'Google'.</strong></div>
+				<div id="ErrorPathContainer"><br><strong>Main > Use Excel File > Copy File.</strong></div>
 			</p>
 			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [PLACEHOLDER_EXCELPATH]</strong></p></div>
 			<div id="OutlookCardDetailsContainer"><p> Outlook account: <strong> [PLACEHOLDER_OUTLOOKACC]</strong></p></div>
-			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f4eab9789db22b7e796069ddb8fcc4a1.png"/></div></div>
-			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="" src=".screenshots/f4eab9789db22b7e796069ddb8fcc4a1.png"/></div>
-			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer"><div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src=".screenshots/8ca76cd52de9550924ece020f3f2f183.png"/></div></div></div>
+			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div></div>
+			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div>
+			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer">[PLACEHOLDER_ANCHORSCREENSHOT]<div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src="[PLACEHOLDER_ELEMENTSCREENSHOT]"/></div></div></div>
 		</div>
 	</div>
 
