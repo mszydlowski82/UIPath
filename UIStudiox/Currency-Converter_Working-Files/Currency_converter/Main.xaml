@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="590,1632" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="636,2890" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uasb="clr-namespace:UiPath.Activities.System.Binding;assembly=UiPath.System.Activities" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="48">
       <x:String>System.Activities</x:String>
@@ -58,7 +58,7 @@
       <AssemblyReference>System.Memory</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="600,1567" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX sap:VirtualizedContainerService.HintSize="646,2785" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
       <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
@@ -68,21 +68,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ueab:ExcelApplicationCard Password="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="558,1477" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Report.xlsx">
+    <ueab:ExcelApplicationCard Password="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="604,2695" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Report.xlsx">
       <ueab:ExcelApplicationCard.Body>
         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="TemplateReport" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,1243" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,2461" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[TemplateReport.Sheet(&quot;Report&quot;).DataTableOutValue]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Product Export.csv" sap:VirtualizedContainerService.HintSize="498,156" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IncludeColumnNames="False" />
-            <ueab:WriteCellX Cell="[TemplateReport.Sheet(&quot;Report&quot;).Cell(&quot;F1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="498,166" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[string.Format(&quot;Total sales USD&quot;)]" />
-            <ueab:ExcelForEachRow DisplayName="Excel For Each Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="498,751" sap2010:WorkflowViewState.IdRef="ExcelForEachRow_1" Range="[TemplateReport.Sheet(&quot;Converter&quot;)]" SaveAfterEachRow="False">
+            <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[TemplateReport.Sheet(&quot;Report&quot;).DataTableOutValue]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Product Export.csv" sap:VirtualizedContainerService.HintSize="544,156" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
+            <ueab:WriteCellX Cell="[TemplateReport.Sheet(&quot;Report&quot;).Cell(&quot;F1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="544,166" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[string.Format(&quot;Total sales USD&quot;)]" />
+            <ueab:ExcelForEachRow DisplayName="Excel For Each Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="544,992" sap2010:WorkflowViewState.IdRef="ExcelForEachRow_1" Range="[TemplateReport.Sheet(&quot;Converter&quot;)]" SaveAfterEachRow="False">
               <ueab:ExcelForEachRow.Body>
                 <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                   <ActivityAction.Argument1>
@@ -91,29 +91,43 @@
                   <ActivityAction.Argument2>
                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                   </ActivityAction.Argument2>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="480,566" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="480,807" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser Chrome: currency converter - Szukaj w Google" sap:VirtualizedContainerService.HintSize="438,476" sap2010:WorkflowViewState.IdRef="NApplicationCard_1">
+                    <uix:NApplicationCard CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: currency converter - Szukaj w Google" sap:VirtualizedContainerService.HintSize="438,717" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,258" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,459" sap2010:WorkflowViewState.IdRef="Sequence_3">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NTypeInto ClickBeforeMode="{x:Null}" DelayBetweenKeys="{x:Null}" ActivateBefore="True" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,168" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="[string.Format(&quot;{0} to USD&quot;, CurrentRow.ByField(&quot;Currency&quot;))]">
+                            <uix:NTypeInto DelayBetweenKeys="{x:Null}" ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Google'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,168" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="[string.Format(&quot;{0} to USD{1}&quot;, CurrentRow.ByField(&quot;Currency&quot;), &quot;[k(enter)]&quot;.ToString().ToString)]">
                               <uix:NTypeInto.Target>
                                 <uix:TargetAnchorable DesignTimeRectangle="189, 137, 493, 34" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;html app='chrome.exe' title='currency converter - Szukaj w Google' /&gt;&lt;webctrl name='q' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='currency converter - Szukaj w Google' /&gt;&lt;webctrl name='q' tag='INPUT' type='text' aaname='Szukaj' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfEAAAAmCAYAAADUfqJeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAONSURBVHhe7dptbuI6GIDR2Qq7Q+pG7r+RKjZC99FuY6RuIjcfTrDfOBDoH0zPkdAVSUhsI/EknfunAwCaJOIA0CgRB4BGiTgANErEAaBRIg4AjRJxAGiUiANAo0QcABol4gDQKBEHgEaJOAA0SsRf0b9zd3z/TG8AeFUi/nK+u/PboTuIOMDLE/GXI+IAv8Uq4t8fx+5w6COQXseP73nPGIfL+8nne3/c27nfO5iOOX2cu2P6/OkrnfP9PMVl2L4E5rM7pePG13Ke5OvUbz91n+N/L8cN5ywMfz7O9i/nSdvj8dMc+/Om9zXjvLJzxnNc3z/N6/QV5jfPe2Nc0/Zjd/6X3u9Zn37beR7L29/uv/z4fI5xjULkt78jAJ5VEfEpTHncpohM4d4f8UMRojma8bMpUFksVtef453Fa+uYPIiXMdWeSmvbcml/HswiuvMcr41hjm+2DsUx9TGM67Rc9471uTW/NP54Q5bPsf4dAfDMsohP0Vg9HS6mH/5dEa/Fqbg5qG+bx7BcY4xUeUMQn2LH64fr5VbXCZ9fGfeHa+ZqY+qV6xDmMSrXZj3/cn0fXp/Kd1COLQnrUL8eAM/sEvGNOF3sj3g8ZgxEEZF1aGZFlMcxhbAU8anFMrgzVg/vL9avdkMU5hxvJorP/2B9Vp/dWqPyu1p/RwA8uxDx7XjFH/3ZjyLex6X6ujPiZSzXLuGLgVu7FbPN/fdGPLyvrWN1bYbXtfVZXWcaS/U8/UvEAdr1dE/ihZ0Rj9dbmc8Tn34rxrFeuZnZ3F+MdU/E83PFefxgfVaf3bdGIg7QnkvEbwauFpa07e6Ix/jPwudvRrw2ppoU1fda9ILxmlduZjb2l/PZF/FlLuO4ynM+vD6r62ytUTlGEQdoT/Y/tqVwFFEoAxD3T0+S/bblxz9EJqkHYopIHpfpfNn1b0a8Nx5TBnN1nt409vJ6dWnOxXjzp9m0fzXOfAw7I76cK15v8OD61K6T1iz/XuJNQv07AuCZFREfTKFIYQkRKaKT9pU//tP+fREfpFAtrxCkPREfpG2b5xlUYn/NEv30inMq98cn870Rv6x3PP/kgfUZpLkW44prFL4PEQdozyrir2qKZSV4ANCoXxLx+l8IAKBlLx/x/f8WDgBt+TV/TgeAVyPiANAoEQeARok4ADRKxAGgUSIOAI0ScQBolIgDQKNEHAAaJeIA0CgRB4Amdd3/foBUuSwaizgAAAAASUVORK5CYII=" InformativeScreenshot="8ca76cd52de9550924ece020f3f2f183.png" SearchSteps="Selector, FuzzySelector, Image" />
                               </uix:NTypeInto.Target>
                             </uix:NTypeInto>
+                            <uix:NGetText DisplayName="Get Text 'INPUT'" sap:VirtualizedContainerService.HintSize="358,161" sap2010:WorkflowViewState.IdRef="NGetText_1">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable DesignTimeRectangle="206, 500, 143, 38" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;html app='chrome.exe' title='EUR to USD - Szukaj w Google' /&gt;&lt;webctrl tableRow='3' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='EUR to USD - Szukaj w Google' /&gt;&lt;webctrl aaname='' tag='INPUT' type='number' /&gt;" InformativeScreenshot="19b7ae782934d51a10627a907e2c086c.png" SearchSteps="Selector, FuzzySelector">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="362, 501, 300, 36" ElementType="DropDown" FriendlyName="'dolar amerykański'" FullSelectorArgument="&lt;html app='chrome.exe' title='EUR to USD - Szukaj w Google' /&gt;&lt;webctrl tableRow='3' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='EUR to USD - Szukaj w Google' /&gt;&lt;webctrl type='' tag='SELECT' aaname='' check:text='dolar amerykański' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATAAAAAoCAYAAAB5CaaxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUFSURBVHhe7Z1LbtswEIZ7lBTIxQzkAN14033gcwTZBMkBWjS+QRDnCLULpAa8ygt5OQ7LGZLSkJKoB40wTf4PIGBKFCUSM59HToF+UQAA0MiNmh2O1XRhexcH/Hl+Olbj07k56GHHX8zUwViP0W26MMfoc3HNVXme2sHFDR+m+cenUzUVx2JUBHZ1fasulys1//NX/V5coqEVjWKCYoNiBHwCFlMjmMOZ1pJPm8DcNSyk8YGaXekOzzdVdNXNYl7OSce98WZMFwqBrddrDs7r2zu12bzaowBUuX945FihmAEfH5ZKILE2gRXVk5CTqbqEnGQVJgUW3CtGITAKyKenZ9sDIM7Ly4ZjBnwCROXkSBUYX+/mDCuwvgKjVwKqvADoA1VieJ38iMzVVAirTlbbEJgbw3OlCIy+SfHaCIaAKuyDwlUXVUmlXCSpApPzmx/8zfFBAqMfZwEYAmIH5IQFRn9hAmAIiB2QEwgMJIHYATmBwEASiB2QEwgMJIHYATmBwEASiB2QEwgMJIHYATmBwEASiB2QEwgMJIHYATnZosBW6mi0q0Yn7f8y+3yyq3YmM9v7QJxN1M7XiTq33f6YPey0N8tjNfq6p46Wti94y/2FwEBOILBtkiowur7rvkBgAEBgWyW5AutBRGBd+PFrqr6Nv0cbjWkDAgM5SRMYJ5GWEbXRRO0HAmNRufNCWL7A7GuTGycEQONGk4m5x+hYj6zi3UMmtJXJ0clecX7/zB9PfcdKjPPuRfPYtfH8P6kvn2Wm9t19PYHZdRVjm9Zpxe/W6Z3TyD3WrXjmQGBmXeY6f3+biUmsi7wICAzkJEFgQcXFyVv2WQhF8lKSl+dkgvG4QGbeOJnMISyXUiZe4tY9jxAAj3XXeuKpn6eUnRAWIZ+hmCfYG03zOs3n8v62z2PNZ19adpwQmPe8mrAfo05iXeVFQGAgJ8MFFlQAdUlZSWCb6M0J1iy6dmTiawIphf3weeSzeqII59HI8d61PHZPjYK1V5HrrO5VuW67JiHpArv/dK9wj/rtmy+xPvIiIDCQk+ECiya2SdDKK1qdwHge3efmJ39rInIS+9f683YRmJVEMY9rda+FFjpWXBtUY/rakT5We42Yu1xnTGBE8HxOZm7t+l7hb2F9BUaQuPrKi4DAQE4yV2DhOL/flojhea8fiifoRyswSTgPY18jz/QeOKEQYqz/bLF1Vveqed2ichP7L9dCNF+/fSAwkJPk38CKRLEVgUtEP6maXg2DOWyVUh1XD59393AViTdXN4HVnnP9cB4L31vej/DGyio0ts6YwMJK1ozlvvcF4s/Rtm/bBAIDOUkQGGESzLzeTNS+TpxKIrrzIqG8BLPJ7MbIc62J6KRFTcvoPCKlsB9WLUZadi5ZWYbzOOxzy9fk2nu4vh3PzVtnTGAauUZ7bXk8fE7Tb923LQKBgZwkCuwTwwKpEdsnA7EDcgKBDYSrqzeqct4ziB2QEwisN/b3LFRfDGIH5AQCA0kgdkBOIDCQBGIH5AQCA0kgdkBOIDCQBGIH5AQCA0kgdkBOWGD47+HBUBA7ICcssMvlSm02r3wAgD5Q7ACQCxbY1fWtur694wMAdOX+4ZFjB4BcsMAI+iZ9enq2PQDivLxsUH2B7BQCW6/XHJBUieF1EsSgyotihWIGgJwUAnPQKwEFJ/04S39hQkNzjWKCYgOvjeC9UBEYAAD8Hyj1D16+U6ypbS3xAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, TextFindAll" Text="dolar amerykański" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='SELECT' /&gt;" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NGetText.Target>
+                              <uix:NGetText.Text>
+                                <OutArgument x:TypeArguments="ue:ExcelValue">[CurrentRow.ByField("Conversion")]</OutArgument>
+                              </uix:NGetText.Text>
+                            </uix:NGetText>
                           </Sequence>
                         </ActivityAction>
                       </uix:NApplicationCard.Body>
@@ -125,6 +139,48 @@
                 </ActivityAction>
               </ueab:ExcelForEachRow.Body>
             </ueab:ExcelForEachRow>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="544,937" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="524,858" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ueab:ExcelForEachRow DisplayName="Excel For Each Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="478,745" sap2010:WorkflowViewState.IdRef="ExcelForEachRow_2" Range="[TemplateReport.Sheet(&quot;Report&quot;)]" SaveAfterEachRow="False">
+                    <ueab:ExcelForEachRow.Body>
+                      <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                        <ActivityAction.Argument1>
+                          <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                        </ActivityAction.Argument1>
+                        <ActivityAction.Argument2>
+                          <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                        </ActivityAction.Argument2>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="460,560" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ueab:VLookupX ColumnIndex="[2]" DisplayName="VLookup" ExactMatch="True" sap:VirtualizedContainerService.HintSize="418,264" sap2010:WorkflowViewState.IdRef="VLookupX_1" Label="[CurrentRow.ByField(&quot;Currency&quot;)]" SourceRange="[TemplateReport.Sheet(&quot;Converter&quot;)]">
+                            <ueab:VLookupX.Value>
+                              <OutArgument x:TypeArguments="ue:ExcelValue">[Saved.Values(Of ExcelValue)("Value from VLookup")]</OutArgument>
+                            </ueab:VLookupX.Value>
+                          </ueab:VLookupX>
+                          <ueab:WriteCellX Cell="[CurrentRow.ByField(&quot;Total sales USD&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="418,166" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[string.Format(&quot;={0}*{1}*{2}&quot;, CurrentRow.ByField(&quot;Quantity&quot;), CurrentRow.ByField(&quot;Price&quot;), Saved.Values(Of ExcelValue)(&quot;Value from VLookup&quot;))]" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ueab:ExcelForEachRow.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ueab:ExcelForEachRow>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
           </Sequence>
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
