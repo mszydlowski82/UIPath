@@ -219,7 +219,7 @@
 
 		#OutlookCardDetailsContainer {
 			/* display: none; */
-			display: none;
+			[OUTLOOK_CONTAINER_VIS_PLACEHOLDER]
 		}	
 
 		#ApplicationCardOnlyDetailsContainer {
@@ -288,15 +288,15 @@
 
 		<div style="width: 80%; float:left; margin-left: 12pt;">
 			<p>
-				Something went wrong with <strong>an Action</strong>.
-				<br>Activity <strong>Copy File</strong> (<strong>Copy File</strong>) failed:
-				<br><br><strong><i id="problem-desc">Could not find a part of the path 'Reports\12/31/2008Report.xlsx'.
+				Something went wrong with <strong>Outlook</strong>.
+				<br>Activity <strong>Send Outlook Email</strong> (<strong>Send Mail X</strong>) failed:
+				<br><br><strong><i id="problem-desc">The specified string is not in the form required for an e-mail address.
 </i></strong>
 				<div id="ErrorPathContainer"><br><br>You can find the activity following this path: </div>
-				<div id="ErrorPathContainer"><br><strong>Main > Use Excel File > Copy File.</strong></div>
+				<div id="ErrorPathContainer"><br><strong>Main > Use Excel File > Use Outlook Account > Send Outlook Email.</strong></div>
 			</p>
 			<div id="ExcelCardDetailsContainer"><p> Excel file path: <strong> [PLACEHOLDER_EXCELPATH]</strong></p></div>
-			<div id="OutlookCardDetailsContainer"><p> Outlook account: <strong> [PLACEHOLDER_OUTLOOKACC]</strong></p></div>
+			<div id="OutlookCardDetailsContainer"><p> Outlook account: <strong> malgorzata_szydlowska</strong></p></div>
 			<div id="ApplicationCardOnlyDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div></div>
 			<div id="ApplicationCardWithElementDetailsContainer" class="ImageClear"><div class="img-resize"><img onclick="ShowModal(this);" class="modal-image"alt="[PLACEHOLDER_APPNAME]" src="[PLACEHOLDER_SCREENSHOTAPPCARD]"/></div>
 			<div id="problem-element-image-container"><p><strong>Problem with element:</strong></p></div><div id="appImagesContainer">[PLACEHOLDER_ANCHORSCREENSHOT]<div class="img-resize center-align"><img onclick="ShowModal(this);" class="modal-image" src="[PLACEHOLDER_ELEMENTSCREENSHOT]"/></div></div></div>
