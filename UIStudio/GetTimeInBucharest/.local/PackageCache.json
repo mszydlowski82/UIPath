@@ -2,55 +2,6 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.4.0-beta.866690"
-      },
-      "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath/20.4.7391.34509\\lib/UiPath.Interop.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts/2.6.0-beta.835380\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.platform/20.4.0-beta.861233\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.telemetry.client/1.1.36\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.dll"
-      ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690"
-    },
-    {
-      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.8.3-beta.890325"
       },
@@ -113,6 +64,84 @@
         "C:\\Users\\misie\\.nuget\\packages\\uipath.system.activities/20.4.0-beta.889657\\lib/net461/UiPath.System.Activities.dll"
       ],
       "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.system.activities\\20.4.0-beta.889657"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "20.4.0-beta.891721"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath/20.4.7416.40153\\lib/UiPath.Interop.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts/2.6.0-beta.857984\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.platform/20.4.0-beta.875482\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.telemetry.client/1.1.36\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.891721\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision/2.0.3-beta.889418\\lib/net461/UiPath.Vision.Tesseract.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis/1.44.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis/1.44.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.auth/1.44.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.auth/1.44.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.calendar.v3/1.44.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.core/1.44.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.docs.v1/1.44.0.1877\\lib/net45/Google.Apis.Docs.v1.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.drive.v3/1.44.0.1863\\lib/net45/Google.Apis.Drive.v3.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.gmail.v1/1.44.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.sheets.v4/1.44.0.1877\\lib/net45/Google.Apis.Sheets.v4.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\microsoft.applicationinsights/2.3.0\\lib/net46/Microsoft.ApplicationInsights.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\mimekit/2.5.1\\lib/net46/MimeKit.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\nodatime/3.0.0-beta01\\lib/netstandard2.0/NodaTime.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.5.1\\lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities/1.4.0\\lib/net461/UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities/1.4.0\\lib/net461/UiPath.GSuite.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities/1.4.0\\lib/net461/UiPath.GSuite.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities/1.4.0\\lib/net461/UiPath.Orchestrator.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0"
     }
   ],
   "Conflicts": [],
@@ -152,6 +181,110 @@
       "Version": "2.8.0",
       "Dependencies": []
     },
+    "Google.Apis": {
+      "Id": "Google.Apis",
+      "Version": "1.44.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Auth": {
+      "Id": "Google.Apis.Auth",
+      "Version": "1.44.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Calendar.v3": {
+      "Id": "Google.Apis.Calendar.v3",
+      "Version": "1.44.0.1872",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Core": {
+      "Id": "Google.Apis.Core",
+      "Version": "1.44.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        }
+      ]
+    },
+    "Google.Apis.Docs.v1": {
+      "Id": "Google.Apis.Docs.v1",
+      "Version": "1.44.0.1877",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Drive.v3": {
+      "Id": "Google.Apis.Drive.v3",
+      "Version": "1.44.0.1863",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Gmail.v1": {
+      "Id": "Google.Apis.Gmail.v1",
+      "Version": "1.44.0.1859",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Sheets.v4": {
+      "Id": "Google.Apis.Sheets.v4",
+      "Version": "1.44.0.1877",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.44.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.44.0, )"
+        }
+      ]
+    },
     "Humanizer.Core": {
       "Id": "Humanizer.Core",
       "Version": "2.4.2",
@@ -160,6 +293,11 @@
     "interop.domino.dll": {
       "Id": "interop.domino.dll",
       "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.ApplicationInsights": {
+      "Id": "Microsoft.ApplicationInsights",
+      "Version": "2.3.0",
       "Dependencies": []
     },
     "Microsoft.AspNet.SignalR.Client": {
@@ -192,10 +330,30 @@
       "Version": "7.10.6071",
       "Dependencies": []
     },
+    "MimeKit": {
+      "Id": "MimeKit",
+      "Version": "2.5.1",
+      "Dependencies": [
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.5, )"
+        }
+      ]
+    },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
       "Version": "12.0.3",
       "Dependencies": []
+    },
+    "NodaTime": {
+      "Id": "NodaTime",
+      "Version": "3.0.0-beta01",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.1, )"
+        }
+      ]
     },
     "NPOI": {
       "Id": "NPOI",
@@ -217,6 +375,11 @@
       "Version": "3.0.10",
       "Dependencies": []
     },
+    "System.Runtime.CompilerServices.Unsafe": {
+      "Id": "System.Runtime.CompilerServices.Unsafe",
+      "Version": "4.5.1",
+      "Dependencies": []
+    },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
       "Version": "4.10.0",
@@ -229,7 +392,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "20.4.7391.34509",
+      "Version": "20.4.7416.40153",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -262,6 +425,48 @@
         }
       ]
     },
+    "UiPath.GSuite.Activities": {
+      "Id": "UiPath.GSuite.Activities",
+      "Version": "1.4.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Calendar.v3",
+          "Item2": "[1.44.0.1872, )"
+        },
+        {
+          "Item1": "Google.Apis.Docs.v1",
+          "Item2": "[1.44.0.1877, )"
+        },
+        {
+          "Item1": "Google.Apis.Drive.v3",
+          "Item2": "[1.44.0.1863, )"
+        },
+        {
+          "Item1": "Google.Apis.Gmail.v1",
+          "Item2": "[1.44.0.1859, )"
+        },
+        {
+          "Item1": "Google.Apis.Sheets.v4",
+          "Item2": "[1.44.0.1877, )"
+        },
+        {
+          "Item1": "Microsoft.ApplicationInsights",
+          "Item2": "[2.3.0, )"
+        },
+        {
+          "Item1": "MimeKit",
+          "Item2": "[2.5.1, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        },
+        {
+          "Item1": "NodaTime",
+          "Item2": "[3.0.0-beta01, )"
+        }
+      ]
+    },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
       "Version": "1.8.3-beta.889642",
@@ -286,12 +491,12 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.6.0-beta.835380",
+      "Version": "2.6.0-beta.857984",
       "Dependencies": []
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "20.4.0-beta.861233",
+      "Version": "20.4.0-beta.875482",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -345,23 +550,23 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "20.4.0-beta.866690",
+      "Version": "20.4.0-beta.891721",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[20.4.7391.34509, 20.4.7391.34509]"
+          "Item2": "[20.4.7416.40153, 20.4.7416.40153]"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[2.0.3-beta.853545, )"
+          "Item2": "[2.0.3-beta.889418, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.6.0-beta.835380, )"
+          "Item2": "[2.6.0-beta.857984, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[20.4.0-beta.861233, )"
+          "Item2": "[20.4.0-beta.875482, )"
         },
         {
           "Item1": "AvalonEdit",
@@ -387,11 +592,11 @@
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "2.0.3-beta.853545",
+      "Version": "2.0.3-beta.889418",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.6.0-beta.835380, )"
+          "Item2": "[2.6.0-beta.857984, )"
         }
       ]
     }
@@ -464,6 +669,88 @@
     },
     {
       "Package": {
+        "Id": "Google.Apis",
+        "Version": "1.44.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis\\1.44.0\\lib\\net45\\Google.Apis.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis\\1.44.0\\lib\\net45\\Google.Apis.PlatformServices.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis\\1.44.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Auth",
+        "Version": "1.44.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.auth\\1.44.0\\lib\\net45\\Google.Apis.Auth.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.auth\\1.44.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.auth\\1.44.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Calendar.v3",
+        "Version": "1.44.0.1872"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.calendar.v3\\1.44.0.1872\\lib\\net45\\Google.Apis.Calendar.v3.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.calendar.v3\\1.44.0.1872"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Core",
+        "Version": "1.44.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.core\\1.44.0\\lib\\net45\\Google.Apis.Core.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.core\\1.44.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Docs.v1",
+        "Version": "1.44.0.1877"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.docs.v1\\1.44.0.1877\\lib\\net45\\Google.Apis.Docs.v1.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.docs.v1\\1.44.0.1877"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Drive.v3",
+        "Version": "1.44.0.1863"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.drive.v3\\1.44.0.1863\\lib\\net45\\Google.Apis.Drive.v3.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.drive.v3\\1.44.0.1863"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Gmail.v1",
+        "Version": "1.44.0.1859"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.gmail.v1\\1.44.0.1859\\lib\\net45\\Google.Apis.Gmail.v1.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.gmail.v1\\1.44.0.1859"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Sheets.v4",
+        "Version": "1.44.0.1877"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\google.apis.sheets.v4\\1.44.0.1877\\lib\\net45\\Google.Apis.Sheets.v4.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\google.apis.sheets.v4\\1.44.0.1877"
+    },
+    {
+      "Package": {
         "Id": "Humanizer.Core",
         "Version": "2.4.2"
       },
@@ -481,6 +768,16 @@
         "C:\\Users\\misie\\.nuget\\packages\\interop.domino.dll\\1.0.0\\lib\\Interop.Domino.dll"
       ],
       "Path": "C:\\Users\\misie\\.nuget\\packages\\interop.domino.dll\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.ApplicationInsights",
+        "Version": "2.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\microsoft.applicationinsights\\2.3.0\\lib\\net46\\Microsoft.ApplicationInsights.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\microsoft.applicationinsights\\2.3.0"
     },
     {
       "Package": {
@@ -525,6 +822,16 @@
     },
     {
       "Package": {
+        "Id": "MimeKit",
+        "Version": "2.5.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\mimekit\\2.5.1\\lib\\net46\\MimeKit.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\mimekit\\2.5.1"
+    },
+    {
+      "Package": {
         "Id": "Newtonsoft.Json",
         "Version": "12.0.3"
       },
@@ -532,6 +839,16 @@
         "C:\\Users\\misie\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
       "Path": "C:\\Users\\misie\\.nuget\\packages\\newtonsoft.json\\12.0.3"
+    },
+    {
+      "Package": {
+        "Id": "NodaTime",
+        "Version": "3.0.0-beta01"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\nodatime\\3.0.0-beta01\\lib\\netstandard2.0\\NodaTime.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\nodatime\\3.0.0-beta01"
     },
     {
       "Package": {
@@ -568,6 +885,16 @@
     },
     {
       "Package": {
+        "Id": "System.Runtime.CompilerServices.Unsafe",
+        "Version": "4.5.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\lib\\netstandard2.0\\System.Runtime.CompilerServices.Unsafe.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1"
+    },
+    {
+      "Package": {
         "Id": "System.Threading.Tasks.Dataflow",
         "Version": "4.10.0"
       },
@@ -589,12 +916,12 @@
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "20.4.7391.34509"
+        "Version": "20.4.7416.40153"
       },
       "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\uipath\\20.4.7391.34509\\lib\\UiPath.Interop.dll"
+        "C:\\Users\\misie\\.nuget\\packages\\uipath\\20.4.7416.40153\\lib\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath\\20.4.7391.34509"
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath\\20.4.7416.40153"
     },
     {
       "Package": {
@@ -607,6 +934,19 @@
         "C:\\Users\\misie\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.890325\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.excel.activities\\2.8.3-beta.890325"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0\\lib\\net461\\UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0\\lib\\net461\\UiPath.GSuite.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0\\lib\\net461\\UiPath.GSuite.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0\\lib\\net461\\UiPath.Orchestrator.dll"
+      ],
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.gsuite.activities\\1.4.0"
     },
     {
       "Package": {
@@ -625,22 +965,22 @@
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.6.0-beta.835380"
+        "Version": "2.6.0-beta.857984"
       },
       "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.835380\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.857984\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.835380"
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.ocr.contracts\\2.6.0-beta.857984"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "20.4.0-beta.861233"
+        "Version": "20.4.0-beta.875482"
       },
       "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.platform\\20.4.0-beta.875482\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.platform\\20.4.0-beta.861233"
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.platform\\20.4.0-beta.875482"
     },
     {
       "Package": {
@@ -677,39 +1017,39 @@
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.4.0-beta.866690"
+        "Version": "20.4.0-beta.891721"
       },
       "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690"
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.891721"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "2.0.3-beta.853545"
+        "Version": "2.0.3-beta.889418"
       },
       "Assemblies": [
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.889418\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.889418\\lib\\net461\\UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.853545"
+      "Path": "C:\\Users\\misie\\.nuget\\packages\\uipath.vision\\2.0.3-beta.889418"
     }
   ]
 }
