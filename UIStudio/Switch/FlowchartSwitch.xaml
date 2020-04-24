@@ -160,10 +160,10 @@
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">620,503.666666666667</av:Point>
                               <av:Size x:Key="ShapeSize">200,51</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">720,554.666666666667 720,633.666666666667 840,633.666666666667 840,746.666666666667 420.166666666667,746.666666666667 420.166666666667,776.666666666667</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">720,554.666666666667 720,587 840,587 840,746.666666666667 420.166666666667,746.666666666667 420.166666666667,776.666666666667</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box - Default case" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;No file found&quot;]" TopMost="True">
+                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box - Default case" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;No file found&quot;]" TopMost="True">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -180,9 +180,9 @@
                           <av:Point x:Key="ShapeLocation">375,516.666666666667</av:Point>
                           <av:Size x:Key="ShapeSize">70,87</av:Size>
                           <av:PointCollection x:Key="Default">445,538.333333333333 475,538.333333333333 475,530 620,530</av:PointCollection>
-                          <av:PointCollection x:Key="2004Connector">445,581.916666666667 475,581.916666666667 475,684.5 610,684.5</av:PointCollection>
-                          <av:PointCollection x:Key="2003Connector">427.5,603.333333333333 427.5,633.333333333333 420,633.333333333333 420,709</av:PointCollection>
-                          <av:PointCollection x:Key="2002Connector">375,581.916666666667 345,581.916666666667 345,664.5 200,664.5</av:PointCollection>
+                          <av:PointCollection x:Key="2004Connector">445,581.916666666667 475,581.916666666667 475,630 610,630</av:PointCollection>
+                          <av:PointCollection x:Key="2003Connector">427.5,603.666666666667 427.5,633.666666666667 420,633.666666666667 420,644.5</av:PointCollection>
+                          <av:PointCollection x:Key="2002Connector">375,581.916666666667 363,581.916666666667 363,610 239.5,610 239.5,664.5 200,664.5</av:PointCollection>
                           <av:PointCollection x:Key="2001Connector">375,560.166666666667 345,560.166666666667 345,574.5 200,574.5</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -191,7 +191,7 @@
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <av:Point x:Key="ShapeLocation">0,549</av:Point>
                             <av:Size x:Key="ShapeSize">200,51</av:Size>
-                            <av:PointCollection x:Key="ConnectorLocation">100,600 100,630 0,630 0,953.666666666667 420.166666666667,953.666666666667 420.166666666667,863.666666666667</av:PointCollection>
+                            <av:PointCollection x:Key="ConnectorLocation">100,600 100,630 0,630 0,974 420.166666666667,974 420.166666666667,863.666666666667</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:MoveFile ContinueOnError="{x:Null}" Destination="D:\_Programowanie\UIPath\UIStudio\Switch\Sample invoices\invoice 2001" DisplayName="Move File 2001" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MoveFile_4" Overwrite="False" Path="[file.FullName]">
@@ -281,9 +281,9 @@
                       <FlowStep x:Key="2003" x:Name="__ReferenceID7">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <av:Point x:Key="ShapeLocation">320,709</av:Point>
+                            <av:Point x:Key="ShapeLocation">320,644.5</av:Point>
                             <av:Size x:Key="ShapeSize">200,51</av:Size>
-                            <av:PointCollection x:Key="ConnectorLocation">420,760 420,776.666666666667 420.166666666667,776.666666666667</av:PointCollection>
+                            <av:PointCollection x:Key="ConnectorLocation">420,695.5 420,725.5 420.166666666667,725.5 420.166666666667,776.666666666667</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:MoveFile ContinueOnError="{x:Null}" Destination="D:\_Programowanie\UIPath\UIStudio\Switch\Sample invoices\invoice 2003" DisplayName="Move File 2003" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="False" Path="[file.FullName]">
@@ -300,9 +300,9 @@
                       <FlowStep x:Key="2004" x:Name="__ReferenceID6">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <av:Point x:Key="ShapeLocation">610,659</av:Point>
+                            <av:Point x:Key="ShapeLocation">610,604.5</av:Point>
                             <av:Size x:Key="ShapeSize">200,51</av:Size>
-                            <av:PointCollection x:Key="ConnectorLocation">710,710 710,740 439.916666666667,740 439.916666666667,776.666666666667</av:PointCollection>
+                            <av:PointCollection x:Key="ConnectorLocation">710,655.5 710,716 439.916666666667,716 439.916666666667,776.666666666667</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:MoveFile ContinueOnError="{x:Null}" Destination="D:\_Programowanie\UIPath\UIStudio\Switch\Sample invoices\invoice 2004" DisplayName="Move File 2004" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="False" Path="[file.FullName]">
