@@ -1727,9 +1727,9 @@
     "restore": {
       "projectUniqueName": "Practice2_Adding_and_concatenating_GenericValue",
       "projectName": "Practice2_Adding_and_concatenating_GenericValue",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Adding_and_concatenating_GenericValue\\.local",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice2_Adding_and_concatenating_GenericValue\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Adding_and_concatenating_GenericValue\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice2_Adding_and_concatenating_GenericValue\\.local"
     },
     "frameworks": {
       "net461": {
