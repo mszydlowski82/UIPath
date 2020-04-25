@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="390,950" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="390,1301" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -43,7 +43,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Parse an input string having the following format:&#xA;&#xA;&quot;You searched for author X. His books can be found in the following stores: Bookstore1, Bookstore2, Bookstore3.&quot;&#xA;&#xA;Print a new string containing the information about the author and the bookstores. Format the output as follows:&#xA;&#xA;“Availability for x: bookstore1; &lt;newline&gt; bookstore2; &lt;newline&gt; bookstore 3.&quot;" sap:VirtualizedContainerService.HintSize="376,745" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Parse an input string having the following format:&#xA;&#xA;&quot;You searched for author X. His books can be found in the following stores: Bookstore1, Bookstore2, Bookstore3.&quot;&#xA;&#xA;Print a new string containing the information about the author and the bookstores. Format the output as follows:&#xA;&#xA;“Availability for x: bookstore1; &lt;newline&gt; bookstore2; &lt;newline&gt; bookstore 3.&quot;" sap:VirtualizedContainerService.HintSize="376,1096" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="message" />
       <Variable x:TypeArguments="x:String" Name="author" />
@@ -64,29 +64,44 @@
         <InArgument x:TypeArguments="x:String">You searched for author Mark Twain. His books can be found in the following stores: Bookland,Classics bookstore.</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Get author" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap2010:Annotation.AnnotationText="    v Split(&quot;.&quot;c).First.ToString extracts the first sentence of the String and converts it to a String;&#xD;&#xA;    v Substring(message.LastIndexOf(&quot;author&quot;)) extracts the Substring that is after “author”;" DisplayName="Get author" sap:VirtualizedContainerService.HintSize="334,162" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[author]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">[message.Split("."c).First.ToString.Substring(message.LastIndexOf("author"))]</InArgument>
       </Assign.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign DisplayName="Get bookstore list" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap2010:Annotation.AnnotationText="    v message.Split(&quot;.&quot;c)(1).ToString extracts the second sentence of the String and converts it to a String;&#xD;&#xA;    v Split(&quot;:&quot;c).Last.ToString splits the remaining String and keeps only the last part of it;&#xD;&#xA;    v Split(&quot;,&quot;c).ToList takes each string separated by comma and adds it as an element in the List variable;" DisplayName="Get bookstore list" sap:VirtualizedContainerService.HintSize="334,207" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">[bookstores]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="scg:List(x:String)">[message.Split("."c)(1).ToString.Split(","c).ToList]</InArgument>
       </Assign.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign DisplayName="Assign output string" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <Assign sap2010:Annotation.AnnotationText="In this expression, String.Join is used to extract each element in the “bookstores” List variable and display them. vbCr is used to go on a new row for each element (similar to Environment.NewLine)" DisplayName="Assign output string" sap:VirtualizedContainerService.HintSize="334,162" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[outputString]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">[String.Format("Availability for {0}: {1}", author ,String.Join(";"+vbCr,bookstores))]</InArgument>
       </Assign.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[outputString]" />
   </Sequence>
