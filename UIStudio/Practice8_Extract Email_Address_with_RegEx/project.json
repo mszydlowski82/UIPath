@@ -1,12 +1,12 @@
 {
-  "name": "Practice7_Extract_Email_Address",
-  "description": "Extract the email address from a string (without using RegEx)",
+  "name": "Practice8_Extract Email_Address_with_RegEx",
+  "description": "Extract the email address from a string (using RegEx)",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.3-preview]",
-    "UiPath.Mail.Activities": "[1.8.3-preview]",
-    "UiPath.System.Activities": "[20.4.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.0-preview]"
+    "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
+    "UiPath.System.Activities": "[20.4.0-beta.889657]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.891721]"
   },
   "webServices": [],
   "schemaVersion": "4.0",

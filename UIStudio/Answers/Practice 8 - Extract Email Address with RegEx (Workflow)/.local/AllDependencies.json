@@ -1725,11 +1725,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Practice7_Extract_Email_Address",
-      "projectName": "Practice7_Extract_Email_Address",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice7_Extract_Email_Address\\.local",
+      "projectUniqueName": "Practice 8 - Extract Email Address with RegEx (Workflow)",
+      "projectName": "Practice 8 - Extract Email Address with RegEx (Workflow)",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Answers\\Practice 8 - Extract Email Address with RegEx (Workflow)\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice7_Extract_Email_Address\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Answers\\Practice 8 - Extract Email Address with RegEx (Workflow)\\.local"
     },
     "frameworks": {
       "net461": {
