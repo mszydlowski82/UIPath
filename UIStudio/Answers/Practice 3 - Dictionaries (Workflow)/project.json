@@ -1,7 +1,7 @@
 {
-  "name": "Practice2_Lists_and_DateTimes",
-  "description": "Verify if the dates in the list have passed in the current year",
-  "main": "Main.xaml",
+  "name": "Practice 3 - Dictionaries (Workflow)",
+  "description": "Blank Process",
+  "main": "Practice3_Dictionaries_CompetitorsSummary.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
     "UiPath.Mail.Activities": "[1.8.3-beta.889642]",

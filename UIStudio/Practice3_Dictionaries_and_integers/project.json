@@ -1,12 +1,12 @@
 {
-  "name": "Practice2_Lists_and_DateTimes",
-  "description": "Verify if the dates in the list have passed in the current year",
+  "name": "Practice3_Dictionaries_and_integers",
+  "description": "Calculate and print the number of victories of each Tour de France winner",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
-    "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
-    "UiPath.System.Activities": "[20.4.0-beta.889657]",
-    "UiPath.UIAutomation.Activities": "[20.4.0-beta.891721]"
+    "UiPath.Excel.Activities": "[2.8.3-preview]",
+    "UiPath.Mail.Activities": "[1.8.3-preview]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-preview]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
