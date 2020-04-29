@@ -1725,11 +1725,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Practice8_Extract Email_Address_with_RegEx",
-      "projectName": "Practice8_Extract Email_Address_with_RegEx",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice8_Extract Email_Address_with_RegEx\\.local",
+      "projectUniqueName": "DataTables",
+      "projectName": "DataTables",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\DataTables\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice8_Extract Email_Address_with_RegEx\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\DataTables\\.local"
     },
     "frameworks": {
       "net461": {

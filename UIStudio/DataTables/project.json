@@ -1,6 +1,6 @@
 {
-  "name": "Practice8_Extract Email_Address_with_RegEx",
-  "description": "Extract the email address from a string (using RegEx)",
+  "name": "DataTables",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.8.3-preview]",
