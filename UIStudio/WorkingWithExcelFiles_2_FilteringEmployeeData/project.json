@@ -1,6 +1,6 @@
 {
-  "name": "WorkingWithExcelFiles_1",
-  "description": "Reading data from two files with different extensions, filtering the data tables and bringing the data together, and writing the data to a different file",
+  "name": "WorkingWithExcelFiles_2_FilteringEmployeeData",
+  "description": "Filtering data from a database and exporting the results into a new file",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.8.3-preview]",

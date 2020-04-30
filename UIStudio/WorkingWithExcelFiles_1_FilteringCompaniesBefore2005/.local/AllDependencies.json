@@ -1727,9 +1727,9 @@
     "restore": {
       "projectUniqueName": "WorkingWithExcelFiles_1",
       "projectName": "WorkingWithExcelFiles_1",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\WorkingWithExcelFiles_1\\.local",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\WorkingWithExcelFiles_1_FilteringCompaniesBefore2005\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\WorkingWithExcelFiles_1\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\WorkingWithExcelFiles_1_FilteringCompaniesBefore2005\\.local"
     },
     "frameworks": {
       "net461": {
