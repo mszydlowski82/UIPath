@@ -1727,9 +1727,9 @@
     "restore": {
       "projectUniqueName": "VideoDemo2_Data_scraping",
       "projectName": "VideoDemo2_Data_scraping",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\VideoDemo2_Data_scraping\\.local",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Data_scraping\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\VideoDemo2_Data_scraping\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Data_scraping\\.local"
     },
     "frameworks": {
       "net461": {

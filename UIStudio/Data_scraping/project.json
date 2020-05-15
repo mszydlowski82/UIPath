@@ -1,5 +1,5 @@
 {
-  "name": "VideoDemo2_Data_scraping",
+  "name": "Data_scraping",
   "description": "Using the Data Scraping wizard to extract structured data from a Google search, and from Wikipedia afterwards.",
   "main": "Main.xaml",
   "dependencies": {
