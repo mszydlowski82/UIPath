@@ -255,7 +255,7 @@
           "build/_._": {}
         }
       },
-      "UiPath.Excel.Activities/2.8.4-preview": {
+      "UiPath.Excel.Activities/2.8.5": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.87.1",
@@ -375,7 +375,7 @@
           }
         }
       },
-      "UiPath.Mail.Activities/1.8.4-preview": {
+      "UiPath.Mail.Activities/1.8.5": {
         "type": "package",
         "dependencies": {
           "BouncyCastle": "1.8.5",
@@ -626,7 +626,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/20.4.1-preview": {
+      "UiPath.UIAutomation.Activities/20.4.1": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "5.0.3",
@@ -1315,13 +1315,12 @@
         "uipath.nuspec"
       ]
     },
-    "UiPath.Excel.Activities/2.8.4-preview": {
-      "sha512": "C0Yx+UkNHmJu75CUDASmdk7rXk0olpGg+AxkP5V0N2w2liT6Of+dgegtlYbmiR9oOMAoHIcQxJCYx5x3BLx8oQ==",
+    "UiPath.Excel.Activities/2.8.5": {
+      "sha512": "iLXhMa6LXXQoExYnFHJk2yTpn9vWP20gw+K0IXxRUHGuFdHG5ffHV5ZTEA0HpwnNUVQZCaV2QmFpiIXuqLrjTQ==",
       "type": "package",
-      "path": "uipath.excel.activities/2.8.4-preview",
+      "path": "uipath.excel.activities/2.8.5",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net461/UiPath.Excel.Activities.Design.dll",
         "lib/net461/UiPath.Excel.Activities.dll",
         "lib/net461/UiPath.Excel.dll",
@@ -1358,17 +1357,16 @@
         "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Excel.resources.dll",
-        "uipath.excel.activities.2.8.4-preview.nupkg.sha512",
+        "uipath.excel.activities.2.8.5.nupkg.sha512",
         "uipath.excel.activities.nuspec"
       ]
     },
-    "UiPath.Mail.Activities/1.8.4-preview": {
-      "sha512": "FTF9oiKjmfjjH5BbsgpqrqP8HLks1+mfKIO0kPNI3XXC9EEpaXxeIr73lCJ4D5pV8IK2pn1RFGwhARZOnVtb6g==",
+    "UiPath.Mail.Activities/1.8.5": {
+      "sha512": "kSOdeIiBW/FXzFHkEt+n7JUZzKMQOK811xQbToOgzTb6zC4EXXNQqP3CJOwCAKKncxF31wtEIwr+TDS7Fko9Sg==",
       "type": "package",
-      "path": "uipath.mail.activities/1.8.4-preview",
+      "path": "uipath.mail.activities/1.8.5",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net461/MailKit.dll",
         "lib/net461/MailKit.xml",
         "lib/net461/MimeKit.dll",
@@ -1409,7 +1407,7 @@
         "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Mail.resources.dll",
-        "uipath.mail.activities.1.8.4-preview.nupkg.sha512",
+        "uipath.mail.activities.1.8.5.nupkg.sha512",
         "uipath.mail.activities.nuspec"
       ]
     },
@@ -1498,10 +1496,10 @@
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/20.4.1-preview": {
-      "sha512": "Rv/F9mstnqQ6y4Luyv+3ZCvthu0Kx+s5dWNNOT9FwryNsIkQ+FqivdiSOGZWEhsyflmWE7ed1XXmvv9w74+cSA==",
+    "UiPath.UIAutomation.Activities/20.4.1": {
+      "sha512": "GZrAD0g/APqrYsuseW1XKCKqWKZLHrDS82dmai3wgq5PdeCECN0PWGX/wVGegOQEsck+U/n3eLjDlpaf4qcWtg==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/20.4.1-preview",
+      "path": "uipath.uiautomation.activities/20.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1641,7 +1639,7 @@
         "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
-        "uipath.uiautomation.activities.20.4.1-preview.nupkg.sha512",
+        "uipath.uiautomation.activities.20.4.1.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
@@ -1716,10 +1714,10 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "UiPath.Excel.Activities >= 2.8.4-preview <= 2.8.4-preview",
-      "UiPath.Mail.Activities >= 1.8.4-preview <= 1.8.4-preview",
+      "UiPath.Excel.Activities >= 2.8.5 <= 2.8.5",
+      "UiPath.Mail.Activities >= 1.8.5 <= 1.8.5",
       "UiPath.System.Activities >= 20.4.0 <= 20.4.0",
-      "UiPath.UIAutomation.Activities >= 20.4.1-preview <= 20.4.1-preview"
+      "UiPath.UIAutomation.Activities >= 20.4.1 <= 20.4.1"
     ]
   },
   "packageFolders": {
@@ -1739,12 +1737,12 @@
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.8.4-preview, 2.8.4-preview]"
+            "version": "[2.8.5, 2.8.5]"
           },
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.8.4-preview, 1.8.4-preview]"
+            "version": "[1.8.5, 1.8.5]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
@@ -1754,7 +1752,7 @@
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[20.4.1-preview, 20.4.1-preview]"
+            "version": "[20.4.1, 20.4.1]"
           }
         }
       }
