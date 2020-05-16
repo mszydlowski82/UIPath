@@ -1772,11 +1772,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Working_with_UI_elements",
-      "projectName": "Working_with_UI_elements",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Working_with_UI_elements_get_secure_credential\\.local",
+      "projectUniqueName": "Using_Index_Selectors_in_Variables",
+      "projectName": "Using_Index_Selectors_in_Variables",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Using_Index_Selectors_in_Variables\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Working_with_UI_elements_get_secure_credential\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Using_Index_Selectors_in_Variables\\.local"
     },
     "frameworks": {
       "net461": {
