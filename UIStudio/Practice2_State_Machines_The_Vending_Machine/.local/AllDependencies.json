@@ -2,29 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "AcmeLibrary/1.0.9": {
-        "type": "package",
-        "dependencies": {
-          "UiPath.Credentials.Activities": "1.1.6479.13204",
-          "UiPath.Excel.Activities": "2.8.5",
-          "UiPath.Mail.Activities": "1.8.5",
-          "UiPath.System.Activities": "20.4.0",
-          "UiPath.UIAutomation.Activities": "20.4.1"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/Libraries_creating_and_using.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "AvalonEdit/5.0.3": {
         "type": "package",
         "compile": {
@@ -53,18 +30,6 @@
         },
         "runtime": {
           "lib/net40/ClosedXML.dll": {}
-        }
-      },
-      "CredentialManagement/1.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "CredentialManagement"
-        ],
-        "compile": {
-          "lib/net35/_._": {}
-        },
-        "runtime": {
-          "lib/net35/CredentialManagement.dll": {}
         }
       },
       "CsvHelper/2.13.5": {
@@ -288,18 +253,6 @@
         },
         "build": {
           "build/_._": {}
-        }
-      },
-      "UiPath.Credentials.Activities/1.1.6479.13204": {
-        "type": "package",
-        "dependencies": {
-          "CredentialManagement": "1.0.2"
-        },
-        "compile": {
-          "lib/net40-client/_._": {}
-        },
-        "runtime": {
-          "lib/net40-client/UiPath.Credentials.Activities.dll": {}
         }
       },
       "UiPath.Excel.Activities/2.8.5": {
@@ -927,31 +880,6 @@
     }
   },
   "libraries": {
-    "AcmeLibrary/1.0.9": {
-      "sha512": "sCblhXUDjFRzjzkfYZ/e5IFuG0+wfkt/HXdADNRsx3k7HkI9t4klR9TaXoSPxrmetXcFkG+KbEkW6xKLzbl7CA==",
-      "type": "package",
-      "path": "acmelibrary/1.0.9",
-      "files": [
-        ".nupkg.metadata",
-        "acmelibrary.1.0.9.nupkg.sha512",
-        "acmelibrary.nuspec",
-        "contentFiles/any/any/.objects/.metadata",
-        "contentFiles/any/any/.objects/.type",
-        "lib/net45/.objects/.metadata",
-        "lib/net45/.objects/.type",
-        "lib/net45/.settings/Release/settings-1a5b880a.json",
-        "lib/net45/.settings/Release/settings-5190454b.json",
-        "lib/net45/.settings/Release/settings-590bb27b.json",
-        "lib/net45/.settings/Release/settings-9e9290da.json",
-        "lib/net45/AcmeLibrary1.0.2/AcmeLibrary.1.0.4.nupkg",
-        "lib/net45/AcmeLibrary1.0.2/AcmeLibrary.1.0.5.nupkg",
-        "lib/net45/AcmeLibrary1.0.2/AcmeLibrary.1.0.6.nupkg",
-        "lib/net45/AcmeLibrary1.0.2/AcmeLibrary.1.0.7.nupkg",
-        "lib/net45/AcmeLibrary1.0.2/AcmeLibrary.1.0.8.nupkg",
-        "lib/net45/Libraries_creating_and_using.dll",
-        "lib/net45/project.json"
-      ]
-    },
     "AvalonEdit/5.0.3": {
       "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
       "type": "package",
@@ -995,17 +923,6 @@
         "lib/net40/ClosedXML.dll",
         "lib/net40/ClosedXML.pdb",
         "lib/net40/ClosedXML.xml"
-      ]
-    },
-    "CredentialManagement/1.0.2": {
-      "sha512": "VkP04/jFXaxT3TkcRhzETYtOrznQxRmQ2J1XJdbXz47Bir7hIzPR7mFZk4GJQ4An4gozW+vonpf+iqTHomAkQw==",
-      "type": "package",
-      "path": "credentialmanagement/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        "credentialmanagement.1.0.2.nupkg.sha512",
-        "credentialmanagement.nuspec",
-        "lib/net35/CredentialManagement.dll"
       ]
     },
     "CsvHelper/2.13.5": {
@@ -1396,17 +1313,6 @@
         "lib/UiPath.Interop.dll",
         "uipath.20.4.7422.14731.nupkg.sha512",
         "uipath.nuspec"
-      ]
-    },
-    "UiPath.Credentials.Activities/1.1.6479.13204": {
-      "sha512": "2C7e17Lk1G6QenZQwA5q0DETGdAb9K34p6SqPcAOdHHyr+BtYSWLWhXn+zNlMF8ZCr51pHCiBPNp33nok2B3Qw==",
-      "type": "package",
-      "path": "uipath.credentials.activities/1.1.6479.13204",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net40-client/UiPath.Credentials.Activities.dll",
-        "uipath.credentials.activities.1.1.6479.13204.nupkg.sha512",
-        "uipath.credentials.activities.nuspec"
       ]
     },
     "UiPath.Excel.Activities/2.8.5": {
@@ -1808,7 +1714,6 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "AcmeLibrary >= 1.0.9 <= 1.0.9",
       "UiPath.Excel.Activities >= 2.8.5 <= 2.8.5",
       "UiPath.Mail.Activities >= 1.8.5 <= 1.8.5",
       "UiPath.System.Activities >= 20.4.0 <= 20.4.0",
@@ -1820,20 +1725,15 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "AcmeTest_library",
-      "projectName": "AcmeTest_library",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\AcmeTest_library\\.local",
+      "projectUniqueName": "Practice2_State_Machines_The_Vending_Machine",
+      "projectName": "Practice2_State_Machines_The_Vending_Machine",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice2_State_Machines_The_Vending_Machine\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\AcmeTest_library\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Practice2_State_Machines_The_Vending_Machine\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
-          "AcmeLibrary": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.9, 1.0.9]"
-          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
