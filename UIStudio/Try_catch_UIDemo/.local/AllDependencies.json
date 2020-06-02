@@ -1727,9 +1727,9 @@
     "restore": {
       "projectUniqueName": "Try_catch",
       "projectName": "Try_catch",
-      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Try_catch\\.local",
+      "projectPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Try_catch_UIDemo\\.local",
       "packagesPath": "C:\\Users\\misie\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Try_catch\\.local"
+      "outputPath": "D:\\_Programowanie\\UIPath\\UIStudio\\Try_catch_UIDemo\\.local"
     },
     "frameworks": {
       "net461": {
